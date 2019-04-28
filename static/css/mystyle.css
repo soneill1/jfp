@@ -22,6 +22,11 @@
   display: block;
 } */
 
+.mycontainer {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .global-page-header {
   background-attachment: fixed;
   background-size: cover;
