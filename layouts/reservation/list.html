@@ -6,23 +6,14 @@
 <section class="company-description">
     <div class="container">
         <div class="row">
-            <div class="col-md-6 wow fadeInLeft" data-wow-delay=".3s">
-                {{ with .Site.Params.about.image }}<img src="{{ . | absURL }}" alt="" class="img-fluid">{{ end }}
-            </div>
-            <div class="col-md-6">
-                <div class="block">
-                    <!-- {{ with .Site.Params.about.title }}<h3 class="subtitle wow fadeInUp" data-wow-delay=".3s" data-wow-duration="500ms">{{ . }}</h3>{{ end }} -->
-                    {{ with .Site.Params.about.content }}
-                    <p class="wow fadeInUp" data-wow-delay=".5s" data-wow-duration="500ms">
-                        {{ . | safeHTML }}
-                    </p>
-                    {{ end }}
-                </div>
+                <iframe src="https://www.sagenda.net/Frontend/Calendar/5cc5e34581d4b9858ceb6e68" width="1300" height="1300" frameborder="0" allowtransparency="true" sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-top-navigation allow-scripts allow-forms"></iframe>
             </div>
         </div>
     </div>
+
     
-</section>
+</section> 
+
 
 {{ "<!--  Company Feature Section Start -->" | safeHTML }}
 <section class="about-feature clearfix">
@@ -45,7 +36,5 @@
 {{ partial "team.html" . }}
 
 {{ partial "clients.html" . }}
-
-{{ partial "cta.html" . }}
 
 {{ partial "footer.html" . }}
