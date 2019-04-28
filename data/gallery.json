@@ -1,0 +1,22 @@
+{  
+    "galleryImages":[  
+       {  
+          "image":"images/gallery/image1.jpg"
+       },
+       {  
+          "image":"images/gallery/image2.jpg"
+       },
+       {  
+          "image":"images/gallery/image3.jpg"
+       },
+       {  
+          "image":"images/gallery/image4.jpg"
+       },
+       {  
+          "image":"images/gallery/image5.jpg"
+       },
+       {  
+          "image":"images/gallery/image6.jpg"
+       }
+    ]
+ }
