@@ -1,6 +1,6 @@
 baseURL = "https://facepainting.netlify.com/"
 languageCode = "en-us"
-title = "Timer | Responsive Multipurpose Bootstrap Hugo Template"
+title = "Face Painting by Jewel"
 theme = "timer"
 
 # We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
@@ -41,10 +41,11 @@ theme = "timer"
         enable  = true
         bgImage = "images/girl.jpg"
         heading = "HI, MY NAME IS JEWEL & I AM A"
-        description = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
+        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description2 = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
         btn     = true
-        btnText = "Download More"
-        btnURL  = "https://themefisher.com/"
+        btnText = "Schedule Today"
+        btnURL  = "/reservation"
         [[params.banner.flipText]]
             title   = "FACE PAINTER"
         [[params.banner.flipText]]
@@ -64,7 +65,7 @@ theme = "timer"
         enable  = true
         title   = "SO WHAT YOU THINK ?"
         content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
-        btnText = "Contact with me"
+        btnText = "Contact me today"
         btnURL  = "/contact"
 
     # Portfolio Section On Homepage
