@@ -13,22 +13,26 @@ theme = "timer"
         url     = "/about"
         weight  = 1
     [[menu.nav]]
+        name    = "Services"
+        url     = "/services"
+        weight  = 2
+    [[menu.nav]]
         name    = "Gallery"
         url     = "/gallery"
-        weight  = 2
+        weight  = 3
     [[menu.nav]]
         name    = "Reservation"
         url     = "/reservation"
-        weight  = 3
+        weight  = 4
     [[menu.nav]]
         name    = "Contact"
         url     = "/contact"
-        weight  = 4
+        weight  = 5
 
 # Site Params
 [params]
     home = "Home"
-    logo = "images/paintboard4.png"
+    logo = "images/paintboard.png"
     dateFormat = "6 January 2006"
     # Meta data
     description = "Airspace Hugo theme"
@@ -40,8 +44,9 @@ theme = "timer"
     [params.banner]
         enable  = true
         bgImage = "images/girl.jpg"
+        bgImage2 = "images/paintsplatter2.png"
         heading = "HI, MY NAME IS JEWEL & I AM A"
-        description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+        description = "Allow me to make your next event a little more colorful with an all inclusive face painting session. Please take a look around my site, and if you are interested I would love to hear from you!"
         description2 = "WITH 10 YEARS EXPERIENCE, I'VE OCCUPIED MANY ROLES INCLUDING DIGITAL DESIGN DIRECTOR, WEB DESIGNER AND DEVELOPER. THIS SITE SHOWCASES SOME OF MY WORK."
         btn     = true
         btnText = "Schedule Today"
@@ -49,7 +54,7 @@ theme = "timer"
         [[params.banner.flipText]]
             title   = "FACE PAINTER"
         [[params.banner.flipText]]
-            title   = "YOGI"
+            title   = "ARTIST"
         [[params.banner.flipText]]
             title   = "FRIEND"
 
@@ -57,14 +62,44 @@ theme = "timer"
     [params.about]
         enable  = true
         title   = "ABOUT ME"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero. <br> <br> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error, adipisci voluptatum repudiandae, natus impedit repellat aut officia illum at assumenda iusto reiciendis placeat. Temporibus, vero."
+        content = "Hello, I am Jewel and this is my family! Ever since I can remember I have enjoyed painting. Growing up in household as one of ten, mean’t there were always a lot of younger siblings around to take care of and spend time with. I instantly became the popular Aunt with my nieces and nephews when they learned that I had the power to transform their faces into their favorite hero’s and heroine’s! <br> <br> Seeing how excited it made them brought me immense joy, and it was then that I decided I wanted to make a career out of it. Combining my love for painting and bringing children joy just made sense. Especially since I am a big kid at heart! And Here I am. Ready to spread joy one brush stroke at a time. Vivamus risu caritate!"
         image   = "images/aboutme2.png"
 
+        [[params.about.aboutItem]]
+            title   = "FACE PAINTER"
+            description = "Hello"
+        [[params.about.aboutItem]]
+        title   = "FACE PAINTER2"
+        description = "Hello2"
+        [[params.about.aboutItem]]
+        title   = "FACE PAINTER3"
+        description = "Hello3"
+        [[params.about.aboutItem]]
+        title   = "FACE PAINTER4"
+        description = "Hello4"
+
+    [params.feature]
+        title   = "FACE PAINTING"
+        subtitle   = "I offer my fully professional face painting service at a competitive rate. The price includes all of the supplies used during your session, such as paints, brushes, and glitter! <br>The price also includes any travel expenses needed to make it to the event. For a discount off of your first session, be sure to subscribe to my news letter! <br>Thank you for your consideration. <br> <br> One Session = 1 Hour"
+        clientsLogo = "images/paintboard.png"
+        [[params.feature.item]]
+            title   = "One Session"
+            description = "$60"
+            icon = "images/brush1.png"
+        [[params.feature.item]]
+            title   = "Two Sessions"
+            description = "$110"
+            icon = "images/brush2.png"
+        [[params.feature.item]]
+            title   = "Three Sessions"
+            description = "$150"
+            icon = "images/brush3med.png"
+    
     # Call to Action
     [params.cta]
         enable  = true
-        title   = "SO WHAT YOU THINK ?"
-        content = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis,<br>possimus commodi, fugiat magnam temporibus vero magni recusandae? Dolore, maxime praesentium."
+        title   = "SO WHAT DO YOU THINK ?"
+        content = "If you're ready to make your next event EVEN more special"
         btnText = "Contact me today"
         btnURL  = "/contact"
 
