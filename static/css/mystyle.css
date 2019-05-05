@@ -25,6 +25,15 @@
 /* .navbar.nav-item.nav-link {
   background: white;
 } */
+
+
+@media (max-width: 300px) {
+  .top-bar.animated-header {
+    background-color: red;
+    background-image: image-url("/images/paintsplatter2.png");
+  } 
+}
+
 .navbar-brand {
   padding-top: 0px;
   padding-bottom: 0px;
