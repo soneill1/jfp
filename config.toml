@@ -84,15 +84,15 @@ theme = "timer"
         clientsLogo = "images/paintboard.png"
         [[params.feature.item]]
             title   = "One Session"
-            description = "$60"
+            description = "$65"
             icon = "images/brush1.png"
         [[params.feature.item]]
             title   = "Two Sessions"
-            description = "$110"
+            description = "$115"
             icon = "images/brush2.png"
         [[params.feature.item]]
             title   = "Three Sessions"
-            description = "$150"
+            description = "$155"
             icon = "images/brush3med.png"
     
     # Call to Action
